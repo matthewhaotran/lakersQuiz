@@ -105,4 +105,11 @@
   /*SFS light red = #c30b0a;
   SFS dark red = #9f2026; */
   
-  
+  .center {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .textcenter {
+    text-align: center;
+  }
