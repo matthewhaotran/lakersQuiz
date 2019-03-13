@@ -5,6 +5,7 @@ body {
 
 table {
   border: 1px dotted black;
+  width: 100%;
 }
 
 p.question {
@@ -102,4 +103,25 @@ table {
 
 .textcenter {
   text-align: center;
+}
+table {
+  width: 600px;
+}
+
+@media (max-width: 500px) {
+  table {
+    width: 400px;
+  }
+}
+
+@media (max-width: 400px) {
+  table {
+    width: 340px;
+  }
+}
+
+@media (max-width: 500px) {
+  td {
+    display: block;
+  }
 }
