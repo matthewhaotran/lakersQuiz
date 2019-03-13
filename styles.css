@@ -26,6 +26,7 @@ h2.quizHeader {
   color: yellow;
   margin-top: 0px;
   width: 100%;
+  padding: 25px;
 }
 
 h2.quizScore{
